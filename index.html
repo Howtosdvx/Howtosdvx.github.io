@@ -32,6 +32,11 @@
   </head>
 
 <body>
+  <script>
+           $(document).ready(function() {
+              $("#target3").addClass("animated fadeOut");
+            });
+  </script>
   <div id="container">
     <div id="wrap">
       <header id="header">
@@ -42,11 +47,7 @@
         <a href="/" id="logo">先不要</a>
       </h1>
       <h2>
-        <script>
-           $(document).ready(function() {
-           $("button").addClass("animated bounce");
-            });</script>
-        <button class="button" id="button">跳</button>
+        <button class="button" id="button">#target3</button>
       </h2>
     </div>
     <div id="header-inner" class="inner">
